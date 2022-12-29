@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Avenir-LT-Std-85-Heavy;
+    src: url("/fonts/Avenir-LT-Std-85-Heavy_5177.ttf")
+}
+@font-face {
+        font-family: Avenir-35;
+        src: url("/fonts/Avenir35Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir-LT-Std-85-Heavy, Avenir-35, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    height: 139px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+
+.section-1 {
+    background-color: #E73634;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 9px;
+    height: 648px;
+}
+
+.section-1 h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 75px;
+}
+
+.section-1 h5 {
+    font-size: 23px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.section-2 {
+    height: 367px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-section-2 {
+    width: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-2 h1 {
+    font-weight: 400;
+    font-size: 42px;
+    color: #000;
+    line-height: 60px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+#form .email {
+    width: 342px;
+    height: 46px;
+    padding: 11px;
+    margin-bottom: 9px;
+    font-size: 18px;
+    color: #000;
+}
+
+#form .enviar {
+    background-color: #E73634;
+    border: 2px solid #E73634;
+    width: 302px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFF;
+    transition: .4s;
+}
+
+#form .enviar:hover {
+    background-color: #FFF;
+    border: 2px solid #000;
+    color: #000;
+}
+
+
+.section-3 {
+    background-color: #E73634;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 397px;
+}
+
+.textos-div-3 {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    gap: 20px;
+}
+
+.textos-div-3 h1{
+    font-size: 35px;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.texto-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+
+.textos-div-3 p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFF;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    height: 235px;
+}
+
+.footer h3 {
+    font-weight: 100;
+    width: 400px;
+    line-height: 25px;
+}
+
+.linktelegram {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+
+.footer div {
+    display: flex;
+    gap: 10px;
+}
